@@ -1,0 +1,27 @@
+.effect {
+  overflow: hidden;
+}
+
+.effect::after {
+  content: "";
+  display: block;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:
+    url("/domi-anneleen-steven.jpg") center center no-repeat,
+    linear-gradient(
+    135deg,
+    hsla(146, 74%, 63%, 1) 0%,
+    hsla(248, 82%, 28%, 1) 100%
+  );
+  z-index: -1;
+}
+
+.page-animation-wrapper {
+  background: #f3fef8;
+}

@@ -1,0 +1,38 @@
+{
+  "name": "next-acms-basic-starter",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "NODE_OPTIONS='--inspect' next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint .",
+    "preview": "next build && next start"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.0",
+    "classnames": "^2.3.2",
+    "drupal-jsonapi-params": "^2.1.0",
+    "framer-motion": "^7.6.12",
+    "html-react-parser": "^1.4.8",
+    "next": "^13.0.5",
+    "next-acms": "^1.0.1",
+    "next-drupal": "^1.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sharp": "^0.30.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "@types/node": "^18.0.6",
+    "@types/react": "^17.0.4",
+    "autoprefixer": "^10.4.2",
+    "eslint": "^8.20.0",
+    "eslint-config-next": "^13.0.5",
+    "postcss": "^8.4.5",
+    "sass": "^1.56.1",
+    "tailwindcss": "^3.0.15",
+    "typescript": "^4.6.0"
+  }
+}
